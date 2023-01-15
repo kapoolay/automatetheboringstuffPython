@@ -8,11 +8,11 @@ name = input().title()
 
 print(f"Well, {name}, I am a thinking of a number between 1 and 20.")
 
-# # Generate a random number between 1-20 using the 'random.randint(a, b)' function
-# secretNumber = random.randint(1, 20)
+## Generate a random number between 1-20 using the 'random.randint(a, b)' function
+secretNumber = random.randint(1, 20)
 
 ## Debug Code to test the for loop results
-print(f"DEBUG: Secret number is {secretNumber}")
+# print(f"DEBUG: Secret number is {secretNumber}")
 
 # For loop for number of guesses taken
 for guessesTaken in range(1, 7):
