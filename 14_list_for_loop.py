@@ -66,7 +66,11 @@ spam += 1
 # spam
 # 44
 
-# A for loop technically iterates over the values in a list.
-# The range() function returns a list-like value, which can be passed to the list() function if you need an actual list value.
-# Variables can swap their values using multiple assignment: a, b = b, a
-# Augmented assignment operators like += are used as shortcuts.
+
+
+'''
+A for loop technically iterates over the values in a list.
+The range() function returns a list-like value, which can be passed to the list() function if you need an actual list value.
+Variables can swap their values using multiple assignment: a, b = b, a
+Augmented assignment operators like += are used as shortcuts.
+'''

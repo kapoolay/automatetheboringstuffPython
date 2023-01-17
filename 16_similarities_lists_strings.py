@@ -42,6 +42,7 @@ print(newName)
 # Zophie the cat
 
 
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mutable and Immutable Data Types
 # Lists are Mutable --> values CAN be added/removed/changed
 # Strings are Immutable --> CANNOT be modified "in place"
@@ -94,11 +95,12 @@ print(cheese)
 #42
 
 
-
-# Strings can do a lot of the same things lists can do, but strings are immutable.
-# Immutable values like strings and tuples cannot be modified "in place".
-# Mutable values like lists can be modified in place.
-# Variables don't contain lists, they contain references to lists.
-# When passing a list argument to a function, you are actually passing a list reference.
-# Changes made to a list in a function will affect the list outside the function.
-# The \ line continuation character can be used to stretch Python instruction across multiple lines.
+'''
+Strings can do a lot of the same things lists can do, but strings are immutable.
+Immutable values like strings and tuples cannot be modified "in place".
+Mutable values like lists can be modified in place.
+Variables don't contain lists, they contain references to lists.
+When passing a list argument to a function, you are actually passing a list reference.
+Changes made to a list in a function will affect the list outside the function.
+The \ line continuation character can be used to stretch Python instruction across multiple lines.
+'''
