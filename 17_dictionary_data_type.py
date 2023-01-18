@@ -45,6 +45,7 @@ print(eggs.items())
 
 
 # get() takes 2 parameters. If first key parameter doesn't exist, it will return 2nd parameter
+eggs = {"name": "Zophie", "species": "cat", "age": 8}
 print(eggs.get("age", 0))
 # 8
 print(eggs.get("color", "--"))
@@ -52,11 +53,12 @@ print(eggs.get("color", "--"))
 
 picnicItems = {"apples": 5, "cups": 8}
 print("I am bringing " + str(picnicItems.get('napkins', 0)) + " napkins to the picnic.")
+# I am bringing 0 napkins to the picnic.
 print(f"I am bringing {picnicItems.get('napkins', 0)} napkins to the picnic.")
 # I am bringing 0 napkins to the picnic.
-# I am bringing 0 napkins to the picnic.
 
-print("~~~~~~~~~~~~~~~~~ Set Default Method")
+
+# setdefault(a, b) Method    --> If key 'a' doesn't exist, assign the value 'b' to it
 eggs = {"name": "Zophie", "species": "cat", "age": 8}
 
 eggs.setdefault("color", "black")    # if the 'color' key doesn't exist, create it and assign 'black' to it
@@ -101,4 +103,11 @@ for i in eggs.items():
 # ('age', 8)
 
 
-
+'''
+Dictionaries contain key-value pairs. Keys are like a list's indexes.
+Dictionaries are mutable. Variables hold references to dictionary values, not the dictionary value itself.
+Dictionaries are unordered. There is no "first" key-value pair in a dictionary.
+The keys(), values(), and items() methods will return list-like values of a dictionary's keys, vaues, and both keys and values, respectively.
+The get() method can return a default value if a key doesn't exist.
+The setdefault() method can set a value if a key doesn't exist.
+The pprint module's pprint() "pretty print" function can display a dictionary value cleanly. The pformat() function returns a string value of this output.'''
